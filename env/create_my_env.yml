@@ -1,0 +1,8 @@
+--- 
+- name: Setup my env
+  hosts: localhost
+  connection: local
+
+  roles:
+    - my_env
+
