@@ -1,7 +1,6 @@
 --- 
 - name: Setup my env
-  hosts: localhost
-  connection: local
+  hosts: "{{ target }}"
 
   roles:
     - my_env
